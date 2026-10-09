@@ -17,7 +17,7 @@ export const register: Register = on => {
     calls += 1
     $.ui.invalidate('ui.render')
     return next(e)
-  })
+  }).catch(($, e, next) => next(e)) // if counting fails, the tool still runs
 
   // Each time the spinner is drawn: swap the word, add the count
   on('ui.render', { component: 'Spinner' }, ($, e, next) => {
