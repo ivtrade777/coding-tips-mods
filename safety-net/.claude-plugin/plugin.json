@@ -1,0 +1,1 @@
+{ "name": "safety-net", "author": { "name": "Coding Tips" }, "license": "MIT", "repository": "https://github.com/ivtrade777/coding-tips-mods", "version": "0.1.0", "description": "Blocks dangerous shell commands (rm -rf, force push, hard reset, DROP TABLE)" }

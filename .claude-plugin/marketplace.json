@@ -1,0 +1,10 @@
+{
+  "name": "coding-tips-mods",
+  "owner": { "name": "Coding Tips" },
+  "description": "Three Claude Code mods from the Coding Tips YouTube channel: spinner-quips, safety-net, session-hud",
+  "plugins": [
+    { "name": "spinner-quips", "source": "./spinner-quips", "description": "Funny spinner words plus a live tool-call counter" },
+    { "name": "safety-net", "source": "./safety-net", "description": "Blocks rm -rf, force push, hard reset and DROP TABLE" },
+    { "name": "session-hud", "source": "./session-hud", "description": "Live HUD above the prompt: time, tools, files, context, cost" }
+  ]
+}
